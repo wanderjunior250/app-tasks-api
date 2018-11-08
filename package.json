@@ -1,0 +1,29 @@
+{
+  "name": "app-tasks-api",
+  "version": "1.0.0",
+  "description": "API to app-tasks project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanderjunior250/app-tasks-api.git"
+  },
+  "author": "wanderjunior250",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wanderjunior250/app-tasks-api/issues"
+  },
+  "homepage": "https://github.com/wanderjunior250/app-tasks-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4",
+    "mongoose": "^5.0.16",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}

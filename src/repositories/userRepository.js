@@ -20,7 +20,8 @@ module.exports = new class userRepository {
   update(id, user) {
 
     const updateduser = {
-      name: user.name
+      ra: user.ra,
+      tasks: user.tasks
     }
 
     return User.findByIdAndUpdate(id, updateduser, { new: true });

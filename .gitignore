@@ -1,0 +1,5 @@
+node_modules
+.vscode
+.nyc_output
+ssh_keys/*
+!ssh_keys/.gitkeep

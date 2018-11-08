@@ -4,7 +4,8 @@ mongoose.connect('mongodb://root:root1234@ds155293.mlab.com:55293/app-tasks', { 
 var Schema = mongoose.Schema;
 
 var UserSchema = new Schema({
-    name: String
+    ra: String,
+    tasks: []
 });
 
 
