@@ -3,7 +3,7 @@ var mongoose = require('mongoose')
 var User = require('../config/db');
 
 
-module.exports = new class userRepository {
+module.exports = new class UserRepository {
 
   getAll() {
     return User.find();
